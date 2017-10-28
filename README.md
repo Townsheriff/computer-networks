@@ -1,6 +1,7 @@
-# Computer Networks
+# Computer Networks
 
-### Cyclic Redundancy Checks (CRC)
+
+### Cyclic Redundancy Checks (CRC)
 
 Implementation can be found: `src/cyclic-redundancy-check.js`
 Test scenarios can be found: `test/test-cyclic-redundancy-check.js`
