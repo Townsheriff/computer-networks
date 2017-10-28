@@ -1,0 +1,13 @@
+{
+  "name": "computer-networks-homework-2",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test/*"
+  },
+  "author": "Arturs Valenieks",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  }
+}
