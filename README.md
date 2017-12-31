@@ -17,11 +17,11 @@ Test scenarios can be found `test/test-error-correction-codes.js`
 
 Used node package [MD5](https://www.npmjs.com/package/md5).
 
-Finding prime numbers: [prime-numbers.js](../blob/master/src/prime-numbers.js)
+Finding prime numbers: [prime-numbers.js](../master/src/prime-numbers.js)
 
-Generating, encrypting, decrypting: [rsa.js](../blob/master/src/rsa.js)
+Generating, encrypting, decrypting: [rsa.js](../master/src/rsa.js)
 
-Tests scenarios for Signed RSA Message: [test-message-signing.js](../blob/master/test/test-message-signing.js)
+Tests scenarios for Signed RSA Message: [test-message-signing.js](../master/test/test-message-signing.js)
 
 ### Running
 
