@@ -1,7 +1,5 @@
 'use strict';
 
-const assert = require('assert');
-
 const xor = (a, b) => {
   if (a !== 0 && a !== 1) {
     throw new Error('Invalid element type for a');
