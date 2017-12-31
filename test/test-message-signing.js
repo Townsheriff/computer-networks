@@ -45,7 +45,7 @@ describe('Signing', () => {
     assert.equal(remoteChecksum, localChecksum);
   });
 
-  it('Should correctly reject message with incorrect text', () => {
+  it('Should reject signed message with incorrect text', () => {
     const message = 'KINO';
     const checksum = md5(message);
     assert.equal(checksum, "5225dc492f4755a91d4e76f60f110e5f");
@@ -63,7 +63,7 @@ describe('Signing', () => {
     assert.notEqual(remoteChecksum, localChecksum);
   });
 
-  it('Should correctly reject message with incorrect signature', () => {
+  it('Should reject signed message with incorrect signature', () => {
     const message = 'KINO';
     const checksum = md5(message);
     assert.equal(checksum, "5225dc492f4755a91d4e76f60f110e5f");
