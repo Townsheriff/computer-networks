@@ -28,7 +28,6 @@ const transform = (code, power, mod) => {
  * @constructor
  */
 const PrivateKey = (d, n) => {
-  console.log(`Setting encrypt d=${d} and n=${n}`);
 
   const encrypt = text => {
     const encrypted = [];
@@ -67,7 +66,6 @@ const PrivateKey = (d, n) => {
  * @constructor
  */
 const PublicKey = (e, n) => {
-  console.log(`Setting decrypt e=${e} and n=${n}`);
 
   const decrypt = encrypted => {
     // iterates through array of encoded char values
