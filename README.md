@@ -13,6 +13,16 @@ Used Hamming Code (7,4) codewords.
 Implementation can be found: `src/error-correction-codes.js`
 Test scenarios can be found `test/test-error-correction-codes.js`
 
+### RSA Signed Message
+
+Used node package [MD5](https://www.npmjs.com/package/md5).
+
+Finding prime numbers: [prime-numbers.js](../blob/master/src/prime-numbers.js)
+
+Generating, encrypting, decrypting: [rsa.js](../blob/master/src/rsa.js)
+
+Tests scenarios for Signed RSA Message: [test-message-signing.js](../blob/master/test/test-message-signing.js)
+
 ### Running
 
 Steps tested with MacOS.
@@ -21,3 +31,8 @@ Running unit tests wont work on windows CMD, but should work in [Windows Bash](h
 1. Install [NodeJS](https://nodejs.org/en/download/)
 2. Install project dependencies: `npm install`
 3. Run unit tests: `npm run test` (Mac/Linux)
+
+
+### Resources
+
+* [MD5 JS Implementation](https://code.google.com/archive/p/crypto-js/)

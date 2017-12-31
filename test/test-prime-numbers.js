@@ -33,4 +33,19 @@ describe('Prime Numbers', () => {
     const primeNumbers = PrimeNumbers();
     assert.equal(primeNumbers.find(19), 71);
   });
+
+  it('Should find correct coprime for 10', () => {
+    const primeNumbers = PrimeNumbers();
+    assert.equal(primeNumbers.coprime(10), 3);
+  });
+
+  it('Should find correct coprime for 30', () => {
+    const primeNumbers = PrimeNumbers();
+    assert.equal(primeNumbers.coprime(30), 7);
+  });
+
+  it('Should find correct coprime for 210', () => {
+    const primeNumbers = PrimeNumbers();
+    assert.equal(primeNumbers.coprime(210), 11);
+  });
 });

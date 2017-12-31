@@ -32,7 +32,27 @@ module.exports = (primes = []) => {
     return primes[index];
   };
 
+  const coprime = number => {
+    const divisors = [];
+
+    // finds a list of common divisors
+    for (let i = 1; i < number / 2; i++) {
+      if (number % i === 0) {
+        divisors.push(i);
+      }
+    }
+
+    let prime = findPrime(1);
+    // for each prime checks if it is a divisor for a number
+    for (let i = 2; divisors.indexOf(prime) !== -1; i++) {
+      prime = findPrime(i);
+    }
+
+    return prime;
+  };
+
   return {
-    find: findPrime
+    find: findPrime,
+    coprime: coprime
   };
 };
